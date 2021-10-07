@@ -27,3 +27,19 @@ axs[2].set_ylabel("f(x)")
 axs[2].grid()
 
 plt.show()
+
+
+import pandas as pd
+intro = markdown.markdown("## Karol Wolczyk zadanie 4")
+print(intro)
+
+dt = {'Name' : [], 'Surname' : [], 'Age' : [], 'Sex' : []}
+name = ["Jacek", "Tomasz", "Sławomir", "Eliza", "Dawid"]
+surname = ["Wróbel", "Nowak", "Szczepaniak", "Górecka", "Pasieka"]
+age = [58, 34, 24, 27, 13]
+sex = ['M', 'M', 'M', "F", 'M']
+data_frame = pd.DataFrame({"Name" : name, "Surname" : surname, "Age" : age, "Sex" : sex})
+data_frame["Age"] = data_frame["Age"].astype(np.uint8)
+data_frame.info()
+print(data_frame.describe(include='all'))
+data_frame.head(3)
