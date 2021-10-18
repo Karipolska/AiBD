@@ -1,4 +1,4 @@
-# Spis operacji, które kolejno przeprowadzaono na oryginalnych danych aby otrzymać dane wyjściowe:
+# Spis operacji, które kolejno przeprowadzono na oryginalnych danych aby otrzymać dane wyjściowe:
 
 I. Otrzymanie pliku music_details
 - Usunięcie danych związanych z datą wejścia utworu na listę, oraz miejscami zajmowanymi w poszczególnych tygodniach
