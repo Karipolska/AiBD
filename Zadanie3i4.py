@@ -30,8 +30,8 @@ plt.show()
 
 
 import pandas as pd
-intro = markdown.markdown("## Karol Wolczyk zadanie 4")
-print(intro)
+
+print("## Karol Wolczyk zadanie 4")
 
 dt = {'Name' : [], 'Surname' : [], 'Age' : [], 'Sex' : []}
 name = ["Jacek", "Tomasz", "Sławomir", "Eliza", "Dawid"]
